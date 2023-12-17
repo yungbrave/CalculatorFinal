@@ -49,7 +49,6 @@ public final class CalculatorUtils {
             default -> throw new RuntimeException("Invalid operand");
         }
         if (isRoman) {
-            String test = getRomanValueOf(result);
             return getRomanValueOf(result);
         }
         return String.valueOf(result);
